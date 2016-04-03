@@ -13,5 +13,4 @@ class CurlTest extends TestCase
         $r = new CurlRequest("http://google.com");
         $this->assertInstanceOf(HttpRequest::class,$r);
     }
-
 }
